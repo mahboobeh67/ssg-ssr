@@ -7,13 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "server-json" : "json-server --watch db.json --port 4000"
+    "server-json": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.3",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "swr": "^2.3.8"
   },
   "devDependencies": {
     "babel-plugin-react-compiler": "1.0.0",
